@@ -8,10 +8,10 @@ import withColor from './withColor';
             <div>
                 <button style ={{color: this.props.color,
                                  backgroundColor :this.props.backgroundColor,
-                                 padding: "8px 16px",
+                                 padding: "20px 16px",
                                  borderRadius:
-                                 "4px",
-                                 fontSize:"18px",
+                                 "8px",
+                                 fontSize:"20px",
                                  fontWeight: "bold",
                                  boxShadow: "0 0 4px rgba(0, 0, 0, 0.2)",}} 
                                  onClick={this.props.handleChangeColor} >
